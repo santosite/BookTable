@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 3</title>
+</head>
+<body >
+    <div class="container">
+        <form id ="book-form">
+            <h1>Add Book</h1>
+            <!-- TITLE -->
+            <div>
+                <label for="input">Title</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+
+            <!-- AUThOR -->
+            <div>
+                <label for="input">Author</label>
+                <input type="text" id="author" class="u-full-width">
+            </div>
+            <!-- ISBN -->
+            <div>
+                <label for="input">ISBN</label>
+                <input type="text" id="isbn" class="u-full-width">
+            </div>
+            <input href="#" class="button- u-full-width" type="submit" value="SUBMIT">
+        </form>
+        <!-- OUTPUT(TABLE) -->
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="app2.js"></script>
+  
+</body>
+</html>
